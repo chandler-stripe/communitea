@@ -6,7 +6,7 @@ const stripe = require("stripe")('sk_test_428DT589O8KAxCGbLmxyZDsH1k0qxHxkTytW2Y
 app.use(express.static("public"));
 app.use(express.json());
 
-const port = 3000;
+const port = 4242;
 
 app.listen(port, () => {
     console.log(`App listening on port ${port}`);
